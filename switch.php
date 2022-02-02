@@ -44,7 +44,6 @@ do{
 }
 while ($b<=10);
 
-
 echo "<h3>For Loops</h3>";
 for($c=1; $c<=8; $c++){
     echo "The value of c is $c <br>";
