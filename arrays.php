@@ -78,3 +78,27 @@ $contacts = array(
 );
 
 echo "Email address for Grace is " .$contacts[2]["email"];
+
+echo "<br>";
+
+// Print all the values for each person
+$num =0;
+foreach ($contacts as $person){
+    $num++;
+    echo "<br><b>Person #$num</b><br>";
+    foreach ($person as $key=>$value){
+        echo "$key: $value <br>";
+    }
+
+}
+echo "<br>";
+/*
+$keys = array_keys($contacts);
+for($i = 0; $i < count($contacts); $i++) {
+    echo $keys[$i] . "<br>";
+    foreach($contacts[$keys[$i]] as $key => $value) {
+        echo $key . " : " . $value . "<br>";
+    }
+    echo "<br>";
+}
+*/

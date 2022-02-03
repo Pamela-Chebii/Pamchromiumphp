@@ -39,8 +39,8 @@ echo "<h3>Do While Loops</h3>";
 
 $b = 1;
 do{
-    $b++;
     echo "The value of b is $b <br>";
+    $b++;
 }
 while ($b<=10);
 
@@ -61,11 +61,10 @@ for($e=1; $e<=50; $e+=2){
 
 echo "<h3>Pattern</h3>";
 
-$n = 7;
+//$n = 7;
 
-for ($i = 0; $i < $n; $i++) {
-
-    for ($j = 0; $j <= $i; $j++) {
+for ($i = 0; $i <= 7; $i++) {
+    for ($j = 0; $j <= $i; $j++) { //replaces the value with a star
         echo "*";
     }
     echo "<br>";

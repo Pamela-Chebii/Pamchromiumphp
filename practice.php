@@ -43,9 +43,53 @@ echo "<h3>While loop</h3>";
 $i = 1;
 
 while
-($i < 6)
+($i <= 8)
 {
 
     echo "$i <br>";
     $i++;
+}
+
+echo "<br>";
+echo "<h3>Do While loop</h3>";
+$f = 1;
+do{
+    echo "The value of f is $f <br>";
+    $f++;
+}
+while($f<=8);
+
+echo "<h3>Indexed Array</h3>";
+
+$color = array("red", "green", "orange", "purple");
+print_r($color);
+echo "<br>";
+foreach ($color as $value){
+    echo "$value<br>";
+}
+
+echo "<h3>Associative Array</h3>";
+
+$age = array("Mark"=>30, "Pamela"=>26, "Grace"=>34, "James"=>37);
+print_r($age);
+echo "<br>";
+foreach ($age as $key=>$value){
+    echo "Your age $key is $value<br>";
+}
+// Sorting according to values ascending order
+asort($age);
+print_r($age);
+echo "<br>";
+
+// Sorting according to values descending order
+arsort($age);
+print_r($age);
+echo "<br>";
+
+echo "<h3>Pattern</h3>";
+for ($x=0;$x<=6;$x++){ //increments the value of X by 1
+    for ($y=0;$y<=$x;$y++){ //replaces the value of X by *
+        echo "*";
+    }
+    echo "<br>";
 }
