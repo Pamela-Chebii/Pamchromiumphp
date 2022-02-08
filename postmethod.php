@@ -1,15 +1,27 @@
 <?php
+include "connect.php";
 if (isset($_POST["submit"])){
     $firstName = $_POST["firstName"];
     $secondName = $_POST["secondName"];
     $emailAddress = $_POST["emailAddress"];
     $phoneNumber = $_POST["phoneNumber"];
 
+    #query
+    $sql = "INSERT INTO `details`( `firstName`, `secondName`, `emailAddress`, `phoneNumber`) 
+            VALUES ('$firstName','$secondName','$emailAddress','$phoneNumber')";
 
-    echo "First name indicated is $firstName <br>";
-    echo "Second name indicated is $secondName<br>";
-    echo "Email address indicated is $emailAddress<br>";
-    echo "Phone number indicated is $phoneNumber<br>";
+
+    #execute the query
+    $result = mysqli_query($link, $sql);
+
+    if ($result){
+        echo "Record added successfully";
+        header("location:select.php");
+    }else{
+        echo "Error executing this query $sql" .mysqli_error($link);
+    }
+
+
 
 }else{
     echo "<h3>Fill this form</h3>";

@@ -47,6 +47,7 @@ while ($b<=10);
 echo "<h3>For Loops</h3>";
 for($c=1; $c<=8; $c++){
     echo "The value of c is $c <br>";
+    $c++;
 }
 echo "<hr>";
 
@@ -56,7 +57,7 @@ for($d=0; $d<=50; $d+=2){
 }
 echo "<h3>Odd Numbers</h3>";
 for($e=1; $e<=50; $e+=2){
-    echo "The value of e is $d <br>";
+    echo "The value of e is $e<br>";
 }
 
 echo "<h3>Pattern</h3>";
@@ -73,6 +74,18 @@ echo "<h3>Pattern</h3>";
 for($row=1; $row<=7; $row++){
     for ($star=1; $star<$row;$star++){
         print "*";
+    }
+    echo "<br>";
+}
+
+echo "<h3>Pattern</h3>";
+$size = 10;
+for($i=1;$i<=$size;$i++){
+    for($j=1;$j<=$size-$i;$j++){
+        echo "&nbsp;&nbsp;";
+    }
+    for($k=1;$k<=$i;$k++){
+        echo "*&nbsp;&nbsp;";
     }
     echo "<br>";
 }
