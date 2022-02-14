@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8d9111c-1508-4964-b9d9-82012bfd4aa3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS/hospital.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/St.lukes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/innova.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/tophill.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/tophill.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handleform.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hospital.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hospital2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/display.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/update.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postmethod.php" beforeDir="false" afterPath="$PROJECT_DIR$/postmethod.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/switch.php" beforeDir="false" afterPath="$PROJECT_DIR$/switch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital.php" beforeDir="false" afterPath="$PROJECT_DIR$/hospital.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/select.php" beforeDir="false" afterPath="$PROJECT_DIR$/select.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +41,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="24YmQB6OASdoQt2ZHfaUhInArKy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,7 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -87,7 +84,14 @@
       <workItem from="1644307611121" duration="3114000" />
       <workItem from="1644313623266" duration="1289000" />
       <workItem from="1644315140667" duration="298000" />
-      <workItem from="1644315462736" duration="1883000" />
+      <workItem from="1644315462736" duration="7946000" />
+      <workItem from="1644393488284" duration="222000" />
+      <workItem from="1644393742296" duration="15263000" />
+      <workItem from="1644482987399" duration="566000" />
+      <workItem from="1644483602663" duration="7664000" />
+      <workItem from="1644498080419" duration="1093000" />
+      <workItem from="1644570933040" duration="66000" />
+      <workItem from="1644842975314" duration="1610000" />
     </task>
     <servers />
   </component>

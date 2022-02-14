@@ -43,6 +43,7 @@ if (isset($_POST["submit"])){
 
     if ($output){
         echo "Record Added Successfully";
+        header("location:display.php");
     }else{
         echo "Error executing query $sql" .mysqli_error($link);
     }
@@ -132,9 +133,9 @@ if (isset($_POST["submit"])){
     </div>
     <div>
         <label>Employment Status:</label>
-        <input type="radio" name="emp" value="ftime" required>
+        <input type="radio" name="emp" value="Full time" required>
         <label>Full Time</label>
-        <input type="radio" name="emp" value="ptime" required>
+        <input type="radio" name="emp" value="Part time" required>
         <label>Part time</label>
         <input type="radio" name="emp" value="unemployed" required>
         <label>Unemployed</label>
